@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gym</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Hubballi&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background-image: url('image/gymgirl.jpg');
+            font-family: 'Baloo 2', cursive;
+        }
+
+        .left {
+            width: 125px;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+            /* border: 2px solid red; */
+            display: inline-block;
+            text-align: center;
+        }
+
+        .left img {
+            width: 130px;
+            filter: invert(100%);
+        }
+
+        .mid {
+            display: block;
+            width: 33%;
+            margin: 20px auto; 
+            
+            /* border: 2px solid rgb(132, 241, 174); */
+        }
+            .right {
+            width: 200px;
+            height: 50px;
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            /* border: 2px solid red; */
+            display: inline-block;
+        }
+        ul.navbar{
+            width: 538px;
+            margin: 17px -98px;
+        }
+        @media (max-width:300px){
+            .navbar{
+                display: block;
+            }
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .navbar li a:hover,.navbar li a:active {
+            color: rgb(128, 126, 126);
+            text-decoration: underline;
+        }
+
+        .btn {
+            width: 144px;
+            background-color: black;
+            color: white;
+            padding: opx;
+            margin: 2px 44px;
+            cursor: pointer;
+            border: 2px solid rgb(163, 162, 162);
+            border-radius: 10px;
+
+        }
+
+        .btn:hover {
+            color: rgb(179, 178, 178);
+        }
+
+        .container {
+            margin: 100px 27px;
+            border: 2px solid rgb(189, 188, 188);
+            border-radius: 10px;
+            width: 382px;
+        }
+
+        .container h2 {
+            text-align: center;
+        }
+
+        .form-group input {
+            border-radius: 6px;
+            text-align: center;
+            margin: 3px 88px;
+            padding: 3px;
+        }
+
+        .container .btn {
+            padding: 0px;
+            margin: 15px 88px;
+            width: 167px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left"> <img src="image/gymlogo.png" alt="">Aman's gym</div>
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#" class="active">home</a> </li>
+                <li> <a href="#">fitness</a> </li>
+                <li> <a href="#">trainer</a> </li>
+                <li> <a href="#">infrastructure</a></li>
+                <li> <a href="#">about</a> </li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Enter Details For Inquiry</h2>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your locality">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your phone number">
+        </div>
+        <div class="btn">submit</div>
+    </div>
+</body>
+
+</html>
